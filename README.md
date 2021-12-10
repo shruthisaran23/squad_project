@@ -14,7 +14,6 @@
 4. Run `python setup.py`
     1. This downloads SQuAD 2.0 training and dev sets, as well as the GloVe 300-dimensional word vectors (840B)
     2. This also pre-processes the dataset for efficient data loading
-    3. For a MacBook Pro on the Stanford network, `setup.py` takes around 30 minutes total  
 
 5. Browse the code in `train.py`
     1. The `train.py` script is the entry point for training a model. It reads command-line arguments, loads the SQuAD dataset, and trains a model.
